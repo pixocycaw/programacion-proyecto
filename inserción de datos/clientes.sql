@@ -91,7 +91,7 @@ INSERT INTO clientes (nombre, apellidos, email, telefono, dni, direccion) VALUES
 ('Raúl', 'Cruz Medina', 'ashla.hugnot@gmail.com', '5775788031', '42678986L', 'Plaza de España, 3, Sevilla'),
 ('Beatriz', 'Carmona Muñoz', 'katina.maghull@yahoo.com.br', '3684336215', '66005683E', 'Calle de la Fuente, 5, Toledo'),
 ('Iker', 'Carmona Muñoz', 'tybie.drinkeld@aol.com', '6758581439', '57142882M', 'Calle de la Fuente, 5, Toledo'),
-('Carmona Muñoz', 'alfie.eborall@optusnet.com.au', '3121977727', '82514635A', 'Calle de la Paz, 19, Barcelona'),
+('Clara', 'Carmona Muñoz', 'alfie.eborall@optusnet.com.au', '3121977727', '82514635A', 'Calle de la Paz, 19, Barcelona'),
 ('Lucia', 'Campos Vidal', 'karl.macarthur@gmail.com', '9389579080', '55289474K', 'Calle del Mar, 10, Bilbao'),
 ('Victoria', 'Campos Soler', 'grete.nono@aol.com', '4378551898', '55807436U', 'Calle de la Historia, 8, Granada'),
 ('Ana', 'Cabrera Bravo', 'fred.musslewhite@hotmail.com', '4106583152', '17400963T', 'Calle Gran Vía, 1, Zaragoza'),
