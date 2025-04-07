@@ -1,13 +1,14 @@
-SELECT 
-    c.id AS id_cliente,
-    c.nombre AS cliente_nombre,
-    c.apellidos AS cliente_apellidos,
-    COUNT(ped.id) AS num_pedidos
-FROM 
-    clientes c
-JOIN 
-    pedidos ped ON c.id = ped.id_cliente
-GROUP BY 
-    c.id
-ORDER BY
-	num_pedidos;
+-- Crear la vista
+CREATE VIEW Vista_Clientes_Pedidos
+AS
+SELECT DISTINCT
+	c.id AS id_cliente,
+    c.nombre,
+	c.email
+FROM
+	clientes c
+JOIN
+	pedidos p ON c.id = p.id_cliente;
+    
+-- Abrir la vista
+SELECT * FROM Vista_Clientes_Pedidos;
