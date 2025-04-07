@@ -1,9 +1,12 @@
 -- Crear la vista
 CREATE VIEW productos_de_yoga
 AS
-SELECT * 
-FROM productos 
-WHERE nombre LIKE '%yoga%'; -- no hay productos con palabra 'Laptop'
+SELECT
+	* 
+FROM
+	productos 
+WHERE
+	nombre LIKE '%yoga%'; 	-- no hay productos con palabra 'Laptop'
 							-- pues comprobemos con productos que si
                             -- que tenemos
      
