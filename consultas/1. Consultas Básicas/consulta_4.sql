@@ -1,0 +1,1 @@
+SELECT * FROM detalles_pedido;
