@@ -1,4 +1,4 @@
-INSERT INTO productos (id, nombre, descripcion, precio, stock) VALUES
+INSERT INTO productos (nombre, descripcion, precio, stock) VALUES
 ('Molinillo de Café Manual', 'Molinillo de café compacto para café en grano recién molido.', '22.99', '1'),
 ('Diario de cuero hecho a mano', 'Hermoso diario encuadernado en cuero para escribir y dibujar.', '39.99', '102'),
 ('Hiking Water Bottle with Filter', 'Botella de agua de 8oz con filtro incorporado para beber agua limpia.', '29.99', '105'),
