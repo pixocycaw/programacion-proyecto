@@ -8,7 +8,7 @@ FROM
 WHERE
 	stock > 20
 ORDER BY
-	stock DESC;
+	stock;
      
 -- Abrir la vista
 SELECT * FROM productos_mas_de_20_unidades;
